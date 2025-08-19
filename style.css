@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format(opentype);
+
+}
+@font-face {
+    font-family: padrao;
+    src: url(fontes/NataSans-VariableFont_wght.ttf) format(truetype);
+}
+
+body {
+   background-color: #59c58a;
+  margin: 0px;
+   font-family: padrao;
+   
+}
+
+header {
+    text-align: center;
+padding: 15px;
+background-image: linear-gradient(to bottom, rgb(23, 201, 127), rgb(3, 73, 26));
+color: white;
+font-family:padrao ;
+box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.158);
+
+}
+nav > a:hover {
+    border-radius: 15px;
+    background-color: #59c58a81;
+    padding: 10px;
+font-weight: bold;
+}
+header > p {
+    font-size: 14px;
+}
+
+header > nav {
+    text-align: left;
+}
+header > p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+main {
+    
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.158);
+    width: 900px;
+   text-align: justify;
+   margin: auto;
+ border-radius: 20px;
+ 
+}
+.principal {
+    background-color: white;
+    padding:15px ;
+   
+   
+    
+}
+
+section > h2 {
+    color: rgb(2, 88, 2);
+    font-family: android;
+   font-size: 35px;
+  
+   
+}
+section > h3 {
+    color: rgb(2, 88, 2);
+    background-image: linear-gradient(to right, rgba(116, 202, 127, 0.466), white);
+    font-family: android;
+}
+ nav > a {
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+}
+ nav > a:hover {
+    text-decoration: underline;
+
+}
+.video{
+ background-color: rgba(9, 68, 9, 0.815);
+
+}
+.videoinfo {
+    margin: 10px;
+    padding: 10px;
+   margin-left: 160px;
+}
+.end-s {
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.end{
+    background-color: rgb(197,235,214);
+  padding-bottom: 10px;
+
+    margin: 20px;
+    border-radius: 20px;
+    text-align: justify;
+}
+.bugdroid {
+    margin-left: 280px;
+}
+div#esquerda {
+    text-align: left;
+}
+div#direita {
+    text-align: right;
+}
+.lista {
+     display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.hend {
+    background-color: rgb(47,168,102);
+padding: 15px;  
+  border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+   
+}
+.end > p {
+    padding: 10px;
+}
+.end-s > p {
+    margin-left:20px  ;
+}
+.end {
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.212);
+}
+.paragrafos {
+    text-indent: 10px;
+}
+footer{
+    background-color: #1A5C38;
+    padding-bottom: 3px;
+    text-align: center;
+    color: rgb(189, 185, 185);
+}
+footer > p {
+    height: 5px;
+    padding: 10px;
+}
+.afooter {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.afooter:hover {
+    text-decoration: underline;
+}
+.linksg {
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.linksg:hover {
+    text-decoration: underline;
+}
+.linksge::after {
+    content: "🔗";
+    
+}
+.linksge {
+   color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #59c58a6c;
+}
+.linksge:hover {
+    text-decoration: underline;
+}
+
+.nomelista {
+    text-decoration: underline;
+}
+
+li::before {
+    content: " ✔     ";
+}
+ul {
+    list-style: none;
+}
+abbr {
+   text-decoration: none;
+}
